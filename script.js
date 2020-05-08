@@ -111,7 +111,8 @@ function showValue(radio) {
       }
     }
     count++;
-    score.textContent = `${count}`;
+    score.textContent = `${count}/${questions.length}`;
+;
   }
 
   else {
